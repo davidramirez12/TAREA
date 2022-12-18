@@ -1,0 +1,9 @@
+print("Bienvenido estudiante")
+print("Por favor ingrese su nombre y apellidos")
+nom= (input( ))
+print("Digite el numero que desea saber si es impar o par ")
+num= int(input( ))
+if (num%2==0): 
+    print("Estudiante",nom, "ese numero es par")
+else:
+     print("Estudiante",nom,"ese numero es impar ")

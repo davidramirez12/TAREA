@@ -1,0 +1,10 @@
+print("Bienvenido estudiante")
+print("Por favor ingrese su nombre y apellidos")
+nom= (input( ))
+print("Gracias, estudiante ", nom, "ingrese la palabra o frase que desea saber la cantidad de letras que esta posee")
+palab=(input())
+
+contador=0
+for i in palab:
+    contador=contador+1 
+print("La cantidad de letras es ", contador)

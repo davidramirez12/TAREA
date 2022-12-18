@@ -1,0 +1,17 @@
+print("Bienvenido contador")
+print("Por favor ingrese su nombre y apellidos")
+nom= (input( ))
+print("Por favor ingrese su frase")
+fras=(input())
+print("Digite la letra a buscar")
+letra=(input())
+cont=0
+for i in fras:
+    if(i.isalpha()):
+        if(letra==i):
+            cont+=1
+print("La letra: ", letra, "se repite",cont, "veces")
+
+
+
+

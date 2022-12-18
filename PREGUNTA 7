@@ -1,0 +1,7 @@
+print("Bienvenido contador")
+print("Digite el imgreso mensual de la empresa")
+ingreso= int(input( ))
+if (ingreso>10800):
+    print("Los ingresos de la empresa son ",ingreso , "en definitiva las finanzas son optimas ")
+else:
+    print("Los ingresos de la empresa son ",ingreso , "en definitiva las finanzas son bajas ")

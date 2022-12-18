@@ -1,0 +1,6 @@
+print("Bienvenido estudiante, por favor ingrese su nombre.")
+nam=input()
+print("Estudiante", nam, ",Ingrese la cantidad hasta donde quiere que se imprima los numeros, tenga en cuenta que empieza desde el numero 1")
+n=int(input())
+for i in range (1,n+1): 
+    print(i)

@@ -1,0 +1,15 @@
+print("Bienvenido usuario, aqui usted podra comprobar el monto a pagar, gracias a los descuentos que tenemos")
+
+print("Ingrese la cantidad de camisetas compradas")
+cant=int(input())
+print("Ingrese el valor de cada camiseta")
+vr=int(input())
+desc=0
+sub=cant*vr 
+if(cant>=3):
+    desc=sub*0.20
+else:
+     desc=sub*0.10
+total=sub-desc 
+print("El total a pagar es: " , total)
+print("El valor descontado fue : " , desc)

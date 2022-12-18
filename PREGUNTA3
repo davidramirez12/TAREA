@@ -1,0 +1,12 @@
+num1=0
+num2=0
+
+
+print("Bienvenido usuario")
+print("Ingrese la altura del rectangulo")
+num1=int(input())
+print("Ingrese la base del rectangulo")
+num2=int(input())
+
+area=num1*num2 
+print("El area del rectangulo  es", area ) 

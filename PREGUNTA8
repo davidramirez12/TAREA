@@ -1,0 +1,9 @@
+print("Bienvenido estudiante")
+print("Por favor ingrese su nombre y apellidos")
+nom= (input( ))
+print("Digite el numero de asistencias durante el ciclo ")
+asistencia= int(input( ))
+if (asistencia>=40):
+    print("Estudiante",nom, "ha asistido  a   ",asistencia , "clases, por lo tanto usted esta aprobado ")
+else:
+     print("Estudiante",nom,"ha asistido a   ",asistencia , "clases, por lo tanto usted esta desaprobado ")

@@ -1,0 +1,6 @@
+lista= [2,3.6, "Conejos" ,  [1,2,3,4]]
+print("Bienvenido contador")
+print("Por favor ingrese su nombre y apellidos")
+nom= (input( ))
+
+print("La lista tiene " , len(lista) , "elementos" ) 

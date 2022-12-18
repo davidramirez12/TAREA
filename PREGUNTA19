@@ -1,0 +1,18 @@
+print("Bienvenido usuario, por favor ingrese su nombre.")
+nam=input()
+print("Usuario", nam, "a continuacion se mostrara  nombre letra por letra, uno debajo de otra" ) 
+cadena= nam
+for variable in cadena:
+    print(variable)
+print("Ahora ingrese sus apellidos")
+apell=input()
+print("Estudiante", nam, "a continuacion se mostrara sus apellidos  letra por letra, uno debajo de otra" ) 
+cadena= apell
+for variable in cadena:
+    print(variable)
+suma= nam + apell 
+print("Estudiante", nam, apell, "ahora se mostrara todo separado letra por letra" ) 
+
+cadena= suma
+for variable in cadena:
+    print(variable)

@@ -1,0 +1,6 @@
+print("Bienvenido usuario, por favor ingrese su nombre y apellidos.")
+nam=input()
+print("Usuario", nam, "a continuacion se mostrara  su nombre y apellido letra por letra, separado una de otra por puntos" ) 
+
+for i in nam: 
+    print(f"{i}", end= " .")

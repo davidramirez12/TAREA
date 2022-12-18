@@ -1,0 +1,17 @@
+print("Bienvenido estudiante")
+print("Por favor digite su nombre")
+name= (input( ))
+print("Ingrese la nota de su PC1")
+not1= float(input( ))
+print("Ingrese la nota de su PC2")
+not2= float(input( ))
+print("Ingrese la nota de su PC3")
+not3= float(input( ))
+suma=( not1 + not2 + not3)
+promedio= suma/3 
+print("Su promedo es", promedio)
+if promedio>=10:
+    print("Por lo tanto estudiante", name, "se encuentra aprobado")
+else: 
+    print("Por lo tanto estudiante", name, "se encuentra desaprobado")
+print("fin")

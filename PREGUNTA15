@@ -1,0 +1,20 @@
+print("Bienvenido usuario, aqui usted podra comprobar el monto a pagar, gracias a los descuentos por docenas que tenemos.")
+
+print("El precio de cada gaseosa es 10 soles:")
+print("Los descuentos que tenemos son:")
+print("Si compra de dos docenas a más, tendra un descuento de 40%")
+print("Si compra de menos de dos docenas, tendra un descuento de 10%")
+
+print("Ingrese la cantidad de  gaseosas")
+cant=int(input())
+print("Ingrese el valor de cada gaseosa")
+vr=int(input())
+desc=0
+sub=cant*vr 
+if(cant>=24):
+    desc=sub*0.40
+else:
+     desc=sub*0.10
+total=sub-desc 
+print("El total a pagar es: " , total)
+print("El valor descontado fue : " , desc)

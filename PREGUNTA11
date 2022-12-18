@@ -1,0 +1,27 @@
+print("Bienvenido vecino")
+print("¿Tienes una llave?")
+tienes= (input( ))
+if tienes=="si":
+    print("Ingrese la forma de la llave")
+    forma = input()
+    print("Ingrese el color de la llave")
+    color = input()
+    if forma == "cuadrada" and color == "naranja": 
+            print("Entra por la puerta 1")
+    elif forma== "redonda" and color == "amarillo":
+            print("Entra por la puerta 2")
+    elif forma == "triangular" and color == "rojo": 
+            print("Entra por la puerta 3")
+
+else: 
+    print("No puedes pasar")
+
+print("fin")
+    
+    
+                
+              
+
+
+
+

@@ -1,0 +1,12 @@
+print("Bienvenido ciudadano")
+
+print("Por favor ingrese sus nombres y apellidos")
+nom= (input( ))
+print("Ingrese su edad")
+edad= int(input( ))
+if (edad>18):
+    print("Ciudadano",nom,"su edad es", edad, "Por lo tanto, usted es mayor de edad")
+else:
+    print("Ciudadano",nom,"su edad es", edad, "Por lo tanto, usted es menor de edad")
+
+

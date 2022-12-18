@@ -1,0 +1,10 @@
+print("Por favor ingrese un numero entre 20 y 40")
+n=int(input( ))
+
+while n>=20 and n<=40:
+    print("Correcto. Estas en el rango")
+    n=int(input("Dime otro número"))
+else:
+    print("Te has salido del rango")
+
+

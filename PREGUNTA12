@@ -1,0 +1,20 @@
+print("Bienvenido al programa que le indicara si la bebida que esta tomando es menos o mas dañino en relacion del azucar?")
+print("¿Tiene sabor dulce su bebida?")
+tienes= (input( ))
+if tienes=="si":
+    print("¿Qué tipo de bebida esta tomando")
+    bebida = input()
+   
+    if bebida == "agua" : 
+            print("Siga asi, felicitaciones")
+    elif  bebida== "Jugo natural": 
+            print("Esta tomando una bebida baja en azucar")
+             
+    elif  bebida=="gaseosa": 
+            print("La bebida que ha ingresado contiene altos niveles de azucar")
+   
+
+else: 
+    print("No olvide tomar agua")
+
+print("fin")

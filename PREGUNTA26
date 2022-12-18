@@ -1,0 +1,9 @@
+print("Bienvenido estudiante, por favor ingrese su nombre.")
+nomb=input()
+
+print("Estudiante", nomb  , ",Ingrese el numero hasta donde se imprimira dicho numero" )
+a=int(input())
+
+for i in range (0,a+1): 
+    print("La lista de numeros sera")
+    print(i) 

@@ -1,0 +1,9 @@
+print("Bienvenido estudiante")
+print("Por favor ingrese su nombre")
+nom= (input( ))
+print("Digite el numero que desea saber si es positivo")
+num= int(input( ))
+if (num>=0):
+    print("Listo" , nom,"El numero que ha ingresado es  ",num , "y ese numero es positivo ")
+else:
+    print("Listo" , nom,"El numero que ha ingresado es  ",num , "y ese numero es negativo ") 
